@@ -37,3 +37,5 @@ opt.signcolumn = "yes"
 vim.cmd[[colorscheme tokyonight-moon]] -- 主题插件配置
 
 
+-- 连续命令之间的超时时间，默认一秒
+opt.timeoutlen = 150
