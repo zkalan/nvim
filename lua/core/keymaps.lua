@@ -27,3 +27,10 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 --:NvimTreeFindFile Move the cursor in the tree for the current buffer, opening folders if needed.
 --:NvimTreeCollapse Collapses the nvim-tree recursively.
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- keymap.set("n", "<C-L>", ":bnext<CR>")
+keymap.set("n", "<leader>l", ":bnext<CR>")
+keymap.set("n", "<leader>h", ":bprevious<CR>")
+-- keymap.set("n", "<C-H>", ":bprevious<CR>")
+
+-- keymap.set("n", "<leader>tf", ":NvimTreeFocus<CR>")
