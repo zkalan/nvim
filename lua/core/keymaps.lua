@@ -19,6 +19,9 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直划分窗口
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
+----------------- Terminal 模式-------------
+keymap.set("t", "jk", "<C-\\><C-N>")
+
 
 ------------------- 插件-----------------
 -- nvim-tree
