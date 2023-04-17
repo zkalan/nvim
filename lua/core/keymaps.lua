@@ -18,6 +18,10 @@ keymap.set("n", "<leader>sv", "<C-w>v") -- 水平划分窗口
 keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直划分窗口
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+-- bufferline 文件标题 快速跳转
+keymap.set("n", "<leader>bf", ":BufferLinePick<CR>")
+-- bufferline 文件标题 快速关闭
+keymap.set("n", "<leader>bfc", ":BufferLinePickClose<CR>")
 
 ----------------- Terminal 模式-------------
 keymap.set("t", "jk", "<C-\\><C-N>")

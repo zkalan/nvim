@@ -11,6 +11,8 @@ opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
+-- 行长度
+opt.colorcolumn = "120"
 
 -- 防止包裹
 opt.wrap = true
@@ -38,4 +40,4 @@ vim.cmd[[colorscheme tokyonight-moon]] -- 主题插件配置
 
 
 -- 连续命令之间的超时时间，默认一秒
-opt.timeoutlen = 150
+opt.timeoutlen = 400
