@@ -56,8 +56,9 @@ return require('packer').startup(function(use)
   use  {
     'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'}}
-
   }
+  -- 最强大的移动工具 sjsp/dyv-xjsp S
+  use 'ggandor/leap.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
